@@ -354,3 +354,100 @@
     }
   }
 }
+.tag-type {
+  display: inline-block;
+  padding: 0 2.5rem;
+  line-height: 2.4rem;
+  border-radius: 0.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+  &.bug {
+    color: #9bba48;
+    background: rgba(156, 186, 72, 0.1);
+  }
+  &.dark {
+    color: #595761;
+    background: rgba(89, 87, 97, 0.1);
+  }
+  &.dragon {
+    color: #2c6ac1;
+    background: rgba(44, 106, 193, 0.1);
+  }
+  &.electric {
+    color: #d4bc34;
+    background: rgba(212, 188, 52, 0.1);
+  }
+  &.fairy {
+    color: #e296e1;
+    background: rgba(226, 150, 225, 0.1);
+  }
+  &.fighting {
+    color: #c44d61;
+    background: rgba(196, 77, 97, 0.1);
+  }
+  &.ground {
+    color: #ce8056;
+    background: rgba(206, 128, 86, 0.1);
+  }
+  &.ice {
+    color: #71baac;
+    background: rgba(113, 186, 171, 0.1);
+  }
+  &.normal {
+    color: #909090;
+    background: rgba(144, 144, 144, 0.1);
+  }
+  &.poison {
+    color: #ac6aca;
+    background: rgba(172, 106, 202, 0.1);
+  }
+  &.psychic {
+    color: #eb8b85;
+    background: rgba(235, 140, 133, 0.1);
+  }
+  &.rock {
+    color: #84beb3;
+    background: rgba(132, 190, 179, 0.1);
+  }
+  &.ghost {
+    color: #616eb7;
+    background: rgba(97, 110, 183, 0.1);
+  }
+  &.grass {
+    color: #73b861;
+    background: rgba(114, 184, 97, 0.1);
+  }
+  &.steal {
+    color: #6594a1;
+    background: rgba(101, 148, 161, 0.1);
+  }
+  &.water {
+    color: #4f77be;
+    background: rgba(79, 120, 190, 0.1);
+  }
+  &.fire {
+    color: #e96303;
+    background: rgba(233, 99, 3, 0.1);
+  }
+  &.flying {
+    color: #758cbd;
+    background: rgba(117, 140, 189, 0.1);
+  }
+}
+.btn-load-more {
+  background-color: rgba(63, 93, 179, 0.1);
+  border-radius: 6px;
+  padding: 1.4rem 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: -0.01em;
+  color: #3f5db3;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #3f5db3;
+    color: #ffffff;
+  }
+}
